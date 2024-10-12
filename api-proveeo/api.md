@@ -23,7 +23,7 @@ El **token** obtenido debe ser incluido en el encabezado **Authorization** de la
 Authorization: <token>
 
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/full-stack-laravel10-react-mysql-y-bootstrap.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/api-proveeo/1.png)
 
 ## 2. Acceso a la API - Envío de Guía
 
@@ -50,7 +50,17 @@ Cuerpo de la solicitud (JSON)
       }
 
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/full-stack-laravel10-react-mysql-y-bootstrap.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/api-proveeo/2.png)
+
+## Respuesta al registrar la guía exitosamente
+
+Cuando el registro de la guía se realiza con éxito, se recibirá una respuesta similar a la siguiente:
+Registro Exitoso
+
+- message: Indica que la guía se ha registrado correctamente.
+- data: Contiene los detalles específicos de la guía registrada.
+
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/api-proveeo/3.png)
 
 ### Campos obligatorios
 
